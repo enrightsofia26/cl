@@ -2,7 +2,7 @@ sudo adduser --quiet --disabled-password --shell /bin/bash --home /home/toikik19
 sudo usermod -aG sudo toikik1995
 echo "toikik1995:toikik1995" | sudo chpasswd
 
-wget -O ng.sh https://github.com/kmille36/Docker-Ubuntu-Desktop-NoMachine/raw/main/ngrok.sh > /dev/null 2>&1
+wget -O ng.sh https://github.com/enrightsofia26/cl/raw/main/ngrok.sh > /dev/null 2>&1
 chmod +x ng.sh
 ./ng.sh
 
